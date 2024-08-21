@@ -1,7 +1,6 @@
-/* General Body Styling */
 body {
     font-family: 'MS Serif', serif;
-    background-image: url('your-background-pattern.png'); /* Replace this with your custom pattern URL */
+    background-image: url('/public/bg.png'); 
     background-repeat: repeat;
     color: #000000;
     margin: 0;
@@ -9,7 +8,6 @@ body {
     text-align: center;
   }
   
-  /* Container Styling */
   .container {
     max-width: 800px;
     margin: 0 auto;
@@ -17,8 +15,7 @@ body {
     background-color: #F5F5F5;
     border: 2px solid #000000;
   }
-  
-  /* Header Styling */
+
   .header img {
     margin-top: 20px;
     width: 300px;
@@ -27,31 +24,29 @@ body {
   
   .header h1 {
     font-size: 36px;
-    color: #333333; /* Monochromatic accent */
+    color: #333333; 
     margin: 10px 0;
   }
   
   .header p {
     font-size: 18px;
-    color: #666666; /* Monochromatic accent */
+    color: #666666; 
     margin-bottom: 30px;
   }
   
-  /* Content Styling */
   .content p {
     font-size: 16px;
     margin: 20px 0;
     color: #333333;
   }
   
-  /* Button Styling */
   .buttons {
     margin: 30px 0;
   }
   
   .button {
     display: inline-block;
-    background-color: #333333; /* Monochromatic color */
+    background-color: #333333; 
     color: white;
     font-size: 18px;
     padding: 10px 20px;
@@ -62,17 +57,16 @@ body {
   }
   
   .button:hover {
-    background-color: #555555; /* Monochromatic hover effect */
+    background-color: #555555; 
   }
   
-  /* Footer Styling */
   .footer {
     margin-top: 50px;
     font-size: 12px;
   }
   
   .footer a {
-    color: #333333; /* Monochromatic link styling */
+    color: #333333; 
     text-decoration: none;
   }
   
@@ -80,7 +74,6 @@ body {
     text-decoration: underline;
   }
   
-  /* Responsive Design */
   @media only screen and (max-width: 600px) {
     .header img {
       width: 80%;
